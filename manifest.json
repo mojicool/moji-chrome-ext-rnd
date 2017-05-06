@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+
+  "name": "Moji 🆒",
+  "description": "Emoji reactions for the web",
+  "version": "1.2",
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_icon": "icon_disabled.png"
+  },
+  "permissions": [
+    "storage",
+    "activeTab",
+    "https://ajax.googleapis.com/"
+  ],
+  "content_security_policy": "script-src 'self' https://ajax.googleapis.com; object-src 'self'; img-src 'self'"
+}
